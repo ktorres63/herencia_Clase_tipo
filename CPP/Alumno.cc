@@ -7,5 +7,5 @@ void Alumno::saludar(){
 }
 */
 void Alumno:: foo(){
-    std::cout << "foo desde alumno";
+    std::cout << "foo desde alumno\n";
 }

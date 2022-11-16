@@ -2,7 +2,7 @@
 #define PERSONA_H
 class Persona{
     public:
-    void foo();
+    virtual void foo();
     void goo();
     //virtual void saludar();
 
