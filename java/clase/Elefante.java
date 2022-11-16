@@ -6,7 +6,7 @@ public class Elefante extends Animal{
         peso = weight;
     }
 
-    public void Saludar(){
-        System.out.println("hola soy un elefante, me llamo: " get.nombre());
+    public String toString(){
+        return "hola soy un elefante, me llamo: " + getNombre();
     }
 }

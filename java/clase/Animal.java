@@ -15,7 +15,6 @@ public class Animal{
         return edad;
     }
 
-    @override
     public String toString() {
         return "hola, soy un Animal";
     }

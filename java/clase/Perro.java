@@ -10,8 +10,8 @@ public class Perro extends Animal{
         return raza;
     }
 
-    public void saludar(){
-        System.out.println("hola soy un Perro, me llamo: "+get.nombre());
+    public String toString() {
+        return "hola soy un Perro, me llamo: "+getNombre();
     }
 
 }
